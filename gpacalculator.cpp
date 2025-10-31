@@ -8,7 +8,7 @@ float percentToGPA(float percent) {
     else if (percent >= 60) return 2.8;
     else if (percent >= 50) return 2.4;
     else if (percent >= 40) return 2.0;
-    else return 0.0; // fail
+    else return "NG aayo Nani/Babu Re-exam ko tayari gara"; // fail
 }
 
 int main() {
